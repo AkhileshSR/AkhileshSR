@@ -1,16 +1,17 @@
 # 👋 Akhilesh Singh | All-time Programmer → FinTaxTech AIML Leader
 
-**Global Director | CFO 100 (2023-2025)** | 20+ years MS/AWS stack  
-[![Fintax ML Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=AkhileshSR&repo=Fintax-tech-ml-leadership&theme=radical)](https://github.com/AkhileshSR/Fintax-tech-ml-leadership)
+**Global Director | CFO 100 (2023-2025)** | 20+ years MS/AWS stack
+
+**🔥 Featured:** [Fintax-tech-ml-leadership](https://github.com/AkhileshSR/Fintax-tech-ml-leadership)  
+*(54 countries • $2M+ ML savings • Azure ML → SAP)*
 
 > "Debugged enterprise systems before ML was cool. Built ML when it became enterprise reality. :)"
 
 ## 🛠️ My Journey
-2005: ASP.NET 2.0 → First production deployment
-2012: AWS Lambda → Serverless before it was mainstream
-2018: Azure ML → Enterprise ML pipelines at nascent yet productive scale
-2023: Commodity Trading ML → 92% VAT, $1.8M fraud prevention
-
+- **2005:** ASP.NET 2.0 → First production deployment at 22
+- **2012:** AWS Lambda → Serverless before mainstream  
+- **2018:** Azure ML → Enterprise ML pipelines at scale
+- **2026:** Commodity Trading ML → 92% VAT, $1.8M fraud prevention
 
 ## 🏆 Enterprise ML for Global Commodity Trading
 

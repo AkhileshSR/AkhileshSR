@@ -1,9 +1,9 @@
-# 👋 Akhilesh Singh | Lifetime Programmer → FinTaxTech ML Leader
+# 👋 Akhilesh Singh | All-time Programmer → FinTaxTech AIML Leader
 
 **Global Director | CFO 100 (2023-2025)** | 20+ years MS/AWS stack  
-[![Fintax ML Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=AkhileshSR&repo=Fintax-tech-ml-leadership&theme=dark)](https://github.com/AkhileshSR/Fintax-tech-ml-leadership)
+[![Fintax ML Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=AkhileshSR&repo=Fintax-tech-ml-leadership&theme=radical)](https://github.com/AkhileshSR/Fintax-tech-ml-leadership)
 
-> "Debugged enterprise systems before ML was cool. Built ML when it became enterprise reality."
+> "Debugged enterprise systems before ML was cool. Built ML when it became enterprise reality. :)"
 
 ## 🛠️ My Journey
 2005: ASP.NET 2.0 → First production deployment

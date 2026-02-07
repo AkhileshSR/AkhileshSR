@@ -6,10 +6,10 @@
 > "Debugged enterprise systems before ML was cool. Built ML when it became enterprise reality."
 
 ## 🛠️ My Journey
-2005: ASP.NET 2.0 → First production deployment at 20+
+2005: ASP.NET 2.0 → First production deployment
 2012: AWS Lambda → Serverless before it was mainstream
-2018: Azure ML → Enterprise ML pipelines at scale
-2026: Commodity Trading ML → 92% VAT, $1.8M fraud prevention
+2018: Azure ML → Enterprise ML pipelines at nascent yet productive scale
+2023: Commodity Trading ML → 92% VAT, $1.8M fraud prevention
 
 
 ## 🏆 Enterprise ML for Global Commodity Trading

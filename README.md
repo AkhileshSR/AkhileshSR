@@ -1,7 +1,3 @@
-# Portfolio & Profile Update Templates
-
-## 1. GitHub README (README.md)
----
 # 👋 Akhilesh Singh | FinTaxTech AIML Leader
 **Global Director | AI Digital Transformation Expert** | 25+ Years Enterprise Experience
 

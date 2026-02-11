@@ -1,5 +1,5 @@
 # 👋 Akhilesh Singh | FinTaxTech AIML Leader
-**Global Director | AI Digital Transformation Expert** | 25+ Years Enterprise Experience
+**Global Director | AI Digital Transformation Expert** | 20+ Years Enterprise Experience
 
 > "Debugged enterprise systems before ML was cool. Built ML when it became enterprise reality. :)"
 

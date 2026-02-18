@@ -1,19 +1,23 @@
-
 #!/usr/bin/env python3
 """
 Time Tracker (CLI)
-------------------
-Simple start/stop task tracker that stores events in a CSV and prints reports.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Examples:
-    python time_tracker.py start --task "Write proposal"
-    python time_tracker.py stop
-    python time_tracker.py report --date 2026-02-18
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 from pathlib import Path
 import argparse
 from datetime import datetime, date
 import csv
+
+# --- Implementation notes ---------------------------------------------------
+# - Minimal state file to track a single running task.
+# - Appends sessions to a CSV for simple analytics and portability.
+# - Report shows totals per task for a given day.
+# ----------------------------------------------------------------------------
 
 DATA_DIR = Path.home() / '.time_tracker'
 DATA_DIR.mkdir(exist_ok=True)
@@ -29,8 +33,7 @@ def start_task(task: str):
     if STATE_FILE.exists():
         print('[ERR] A task is already running. Stop it first.')
         return
-    STATE_FILE.write_text(task + '
-' + now_iso(), encoding='utf-8')
+    STATE_FILE.write_text(task + '\n' + now_iso(), encoding='utf-8')
     print(f"[OK] Started: {task}")
 
 
@@ -94,3 +97,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

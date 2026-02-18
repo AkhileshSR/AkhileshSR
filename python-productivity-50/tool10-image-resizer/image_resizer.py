@@ -1,16 +1,21 @@
-
 #!/usr/bin/env python3
 """
 Image Resizer (Bulk)
---------------------
-Resize images in a folder to fit within max width/height and set JPEG quality.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Examples:
-    python image_resizer.py --src ./in --out ./out --max-width 1600 --max-height 1200 --quality 85
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 from pathlib import Path
 import argparse
 from PIL import Image
+
+# --- Implementation notes ---------------------------------------------------
+# - Uses Pillow's thumbnail() to preserve aspect ratio within a max box.
+# - Applies JPEG quality settings and optimize flag for JPG/JPEG.
+# ----------------------------------------------------------------------------
 
 SUPPORTED = {'.jpg', '.jpeg', '.png', '.webp'}
 
@@ -40,5 +45,8 @@ def main():
 
     process(args.src.expanduser().resolve(), args.out.expanduser().resolve(), args.max_width, args.max_height, args.quality)
 
+
+
 if __name__ == '__main__':
     main()
+

@@ -1,18 +1,21 @@
-
 #!/usr/bin/env python3
 """
 Smart Renamer
--------------
-Batch rename files with prefix/suffix and sequence numbers.
-Supports preview mode and filtering by extension.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Example:
-    python smart_renamer.py --dir ./images --prefix trip_ --ext .jpg --seq --dry-run
-    python smart_renamer.py --dir ./docs --suffix _final --ext .pdf
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 from pathlib import Path
 import argparse
 
+# --- Implementation notes ---------------------------------------------------
+# - Applies prefix/suffix and optional sequence numbers.
+# - Preview changes with --dry-run before applying.
+# - Filter by extension with --ext .jpg (for example).
+# ----------------------------------------------------------------------------
 
 def smart_rename(dir_path: Path, prefix: str, suffix: str, ext_filter: str, seq: bool, start: int, dry: bool):
     files = [p for p in dir_path.iterdir() if p.is_file() and (not ext_filter or p.suffix.lower() == ext_filter.lower())]
@@ -51,3 +54,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

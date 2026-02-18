@@ -8,6 +8,6 @@ Scan `*.log` files and count matches for given regex patterns (e.g., `ERROR`, `W
 python log_summarizer.py --root ./logs --patterns ERROR WARN --out summary.md
 ```
 
-## Notes
-- Uses Python `re` regex; pass multiple patterns.
-- Scans recursively from `--root`.
+## Author & License
+- Programmer: Akhilesh Singh (AkhileshSR)
+- License: MIT — Free to use with credits (see root LICENSE)

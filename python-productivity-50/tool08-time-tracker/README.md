@@ -10,6 +10,6 @@ python time_tracker.py stop
 python time_tracker.py report --date 2026-02-18  # omit to use today
 ```
 
-## Notes
-- One running task at a time (simple state file).
-- CSV backend for easy analysis later.
+## Author & License
+- Programmer: Akhilesh Singh (AkhileshSR)
+- License: MIT — Free to use with credits (see root LICENSE)

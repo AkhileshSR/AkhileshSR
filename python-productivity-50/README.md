@@ -1,61 +1,58 @@
-# Python Productivity 50
-A curated collection of **50 practical Python CLI productivity tools** designed for automation, daily workflows, file management, system utilities, and personal productivity.
 
-The first **10 tools are fully implemented** with complete Python scripts and their own README files.  
-Tools **11–50** will be rolled out gradually (placeholders included to show structure).
+# Python Productivity 50 — First 10 Tools
 
----
+These are the first **10** tools of the *Python Productivity 50* project.
 
-## 🎯 Target Audience
-- Experienced programmer (20–25+ years)  
-- <1 year in Python but comfortable with scripting concepts  
-- Wants clean, reusable, safe automation tools  
-- Prefers simple CLI-based utilities with clear structure  
+**Programmer:** Akhilesh Singh (AkhileshSR)  
+**License:** MIT — Free to use with attribution/credits.
 
----
+Each tool lives in its own folder with:
+- A well‑commented Python script (`.py`)
+- A focused `README.md` with usage examples
 
-## 🧠 Project Philosophy
-- **Standard Library First** — only use external libraries when truly needed  
-- **Clear CLI Interfaces** (`argparse`)  
-- **Dry‑run modes** for safety  
-- **Readable, well-commented code**  
-- **Cross‑platform** via `pathlib`, not OS-specific code  
-- **Each tool is standalone** — drop into any environment  
+## Tools Included
 
----
+1. **Folder Organizer** – Sort files by extension or date
+2. **Duplicate Finder** – Find (and optionally delete) duplicate files by hash
+3. **Smart Renamer** – Batch rename with prefix/suffix/sequence patterns
+4. **PDF Tool** – Merge and split PDFs (ranges)
+5. **Disk Usage Report** – Largest files and directory size summary (CSV/MD)
+6. **Log Summarizer** – Extract errors/warnings by regex, counts, and report
+7. **Daily Planner Generator** – Create a Markdown day planner template
+8. **Time Tracker (CLI)** – Start/stop tasks and report totals (CSV backend)
+9. **Pomodoro Timer (CLI)** – Focus timer with short/long breaks (console)
+10. **Image Resizer** – Bulk resize/compress images (Pillow)
 
-# 🚀 Tools Included (First 10 Completed)
+## Quick Start
 
-### **Tool 01 — Folder Organizer**
-Sort files by **file extension** or **modified date**.
+```bash
+python --version  # Python 3.9+
 
-### **Tool 02 — Duplicate Finder**
-Find and optionally delete duplicate files using cryptographic hashing.
+# Create a virtual environment (recommended)
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+# source venv/bin/activate
 
-### **Tool 03 — Smart Renamer**
-Batch rename files with prefix/suffix/sequence numbers.
+# (Only two tools need third‑party libs)
+pip install -r requirements.txt
+```
 
-### **Tool 04 — PDF Tool**
-Merge multiple PDFs or split one PDF using flexible page ranges.
+## Requirements
 
-### **Tool 05 — Disk Usage Report**
-List **largest files**, directory size breakdowns, and CSV/Markdown exports.
+- Standard library for most tools
+- `Pillow` for **Image Resizer**
+- `PyPDF2` for **PDF Tool**
 
-### **Tool 06 — Log Summarizer**
-Scan `.log` files using regex patterns and produce summaries + Markdown output.
+```
+Pillow>=10.0.0
+PyPDF2>=3.0.0
+```
 
-### **Tool 07 — Daily Planner Generator**
-Generate a Markdown day planner with priorities, schedule blocks, and notes.
+## Credits & License
 
-### **Tool 08 — Time Tracker (CLI)**
-Start/stop time tracking sessions and generate daily productivity reports.
+- **Programmer:** Akhilesh Singh (AkhileshSR)
+- **License:** MIT — Free to use, copy, and modify with attribution. See [LICENSE](LICENSE).
 
-### **Tool 09 — Pomodoro Timer**
-Terminal-based Pomodoro work/break cycles.
-
-### **Tool 10 — Image Resizer**
-Bulk resize and optimize images using Pillow.
-
----
-
-# 📦 Folder Structure
+Happy automating! 🚀

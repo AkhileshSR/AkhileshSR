@@ -1,22 +1,26 @@
-
 #!/usr/bin/env python3
 """
 Pomodoro Timer (Console)
-------------------------
-Simple Pomodoro timer: work/break cycles with progress output.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Example:
-    python pomodoro.py --work 25 --short 5 --long 15 --cycles 4
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 import time
 import argparse
 
+# --- Implementation notes ---------------------------------------------------
+# - Console-only countdowns; simple and portable.
+# - Defaults to the classic 25/5 with a 15-min long break every 4 cycles.
+# ----------------------------------------------------------------------------
 
 def countdown(minutes: int, label: str):
     seconds = minutes * 60
     while seconds >= 0:
         mm, ss = divmod(seconds, 60)
-        print(f"{label}: {mm:02d}:{ss:02d}", end='')
+        print(f"\r{label}: {mm:02d}:{ss:02d}", end='')
         time.sleep(1)
         seconds -= 1
     print()  # newline after phase ends
@@ -24,8 +28,7 @@ def countdown(minutes: int, label: str):
 
 def run_pomodoro(work: int, short: int, long: int, cycles: int):
     for i in range(1, cycles + 1):
-        print(f"
-[Cycle {i}/{cycles}] Focus")
+        print(f"\n[Cycle {i}/{cycles}] Focus")
         countdown(work, 'Work')
         if i % 4 == 0:
             print("Long break")
@@ -33,8 +36,8 @@ def run_pomodoro(work: int, short: int, long: int, cycles: int):
         else:
             print("Short break")
             countdown(short, 'Break')
-    print("
-Done. Great job!")
+    print("\nDone. Great job!")
+
 
 
 def main():
@@ -48,3 +51,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

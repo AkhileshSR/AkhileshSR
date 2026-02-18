@@ -1,20 +1,21 @@
-
 #!/usr/bin/env python3
 """
 Disk Usage Report
------------------
-Generate a quick summary of a directory tree:
-- Total size per top-level child
-- Top N largest files
-- Optional CSV and Markdown reports
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Example:
-    python disk_usage_report.py --root . --top 20 --csv report.csv --md report.md
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 from pathlib import Path
 import argparse
 import csv
 
+# --- Implementation notes ---------------------------------------------------
+# - Computes total size per top-level child and lists top N largest files.
+# - Optional CSV and Markdown outputs.
+# ----------------------------------------------------------------------------
 
 def human_bytes(n: int) -> str:
     for unit in ['B','KB','MB','GB','TB']:
@@ -71,8 +72,7 @@ def main():
     print("Top-level directory sizes:")
     for name, s in sorted(child_sizes, key=lambda x: x[1], reverse=True):
         print(f" - {name}: {human_bytes(s)}")
-    print("
-Largest files:")
+    print("\nLargest files:")
     for sz, f in largest:
         print(f" - {f} ({human_bytes(sz)})")
 
@@ -87,23 +87,15 @@ Largest files:")
 
     # Optional Markdown
     if args.md:
-        lines = ["# Disk Usage Report
-
-", "## Top-level directory sizes
-
-"]
+        lines = ["# Disk Usage Report\n\n", "## Top-level directory sizes\n\n"]
         for name, s in sorted(child_sizes, key=lambda x: x[1], reverse=True):
-            lines.append(f"- **{name}**: {human_bytes(s)}
-")
-        lines.append("
-## Largest files
-
-")
+            lines.append(f"- **{name}**: {human_bytes(s)}\n")
+        lines.append("\n## Largest files\n\n")
         for sz, f in largest:
-            lines.append(f"- `{f}` — {human_bytes(sz)}
-")
+            lines.append(f"- `{f}` — {human_bytes(sz)}\n")
         args.md.write_text(''.join(lines), encoding='utf-8')
         print(f"[OK] Wrote Markdown: {args.md}")
 
 if __name__ == '__main__':
     main()
+

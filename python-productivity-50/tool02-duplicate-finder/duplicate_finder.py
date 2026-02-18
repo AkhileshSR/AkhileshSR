@@ -1,24 +1,27 @@
-
 #!/usr/bin/env python3
 """
 Duplicate Finder
-----------------
-Recursively scan a directory, compute file hashes, and report duplicates.
-Optionally delete duplicates, keeping the newest or the first occurrence.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Example:
-    python duplicate_finder.py --root ./data --algo sha256 --report dupes.csv
-    python duplicate_finder.py --root ./data --delete --keep newest
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 from pathlib import Path
 import hashlib
 import argparse
 import csv
 from collections import defaultdict
 
+# --- Implementation notes ---------------------------------------------------
+# - Uses buffered hashing so very large files are supported.
+# - Reports duplicate groups by hash; can delete dupes (keep newest or first).
+# - Always try --dry-run before --delete.
+# ----------------------------------------------------------------------------
 
 def file_hash(path: Path, algo: str = 'sha256', chunk_size: int = 1<<20) -> str:
-    """Compute a hash for a file using buffered reads to support large files."""
+    """Compute a hash for a file using buffered reads."""
     h = getattr(hashlib, algo)()
     with path.open('rb') as f:
         while True:
@@ -103,3 +106,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

@@ -9,5 +9,6 @@ python daily_planner.py --date 2026-02-18 --out ./plans
 # If --date is omitted, uses today
 ```
 
-## Notes
-- File is named `planner_YYYY-MM-DD.md` and placed in the output folder.
+## Author & License
+- Programmer: Akhilesh Singh (AkhileshSR)
+- License: MIT — Free to use with credits (see root LICENSE)

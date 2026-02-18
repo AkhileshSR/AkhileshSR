@@ -1,21 +1,22 @@
-
 #!/usr/bin/env python3
 """
 PDF Tool (Merge & Split)
-------------------------
-Merge multiple PDFs or split a single PDF by page ranges.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Examples:
-    # Merge
-    python pdf_tool.py merge --out merged.pdf a.pdf b.pdf c.pdf
-
-    # Split pages 1-3,5,7- (to end)
-    python pdf_tool.py split --src big.pdf --ranges "1-3,5,7-" --outdir ./splits
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 import argparse
 from pathlib import Path
 from PyPDF2 import PdfReader, PdfWriter
 
+# --- Implementation notes ---------------------------------------------------
+# - Merge: concatenates pages from inputs in order.
+# - Split: parses 1-based ranges like "1-3,5,7-" into page indices.
+# - Writes a single split PDF for selected pages for simplicity.
+# ----------------------------------------------------------------------------
 
 def do_merge(output: Path, inputs):
     writer = PdfWriter()
@@ -62,7 +63,6 @@ def do_split(src: Path, ranges: str, outdir: Path):
     idxs = parse_ranges(ranges, total)
     outdir.mkdir(parents=True, exist_ok=True)
 
-    # Write selected pages into a new PDF
     w = PdfWriter()
     for i in idxs:
         w.add_page(reader.pages[i])
@@ -94,3 +94,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

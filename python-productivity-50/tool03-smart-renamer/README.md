@@ -12,6 +12,6 @@ python smart_renamer.py --dir ./images --prefix trip_ --ext .jpg --seq --dry-run
 python smart_renamer.py --dir ./docs --suffix _final --ext .pdf
 ```
 
-## Notes
-- Uses lexicographic order to assign sequence.
-- `--dry-run` to confirm before applying.
+## Author & License
+- Programmer: Akhilesh Singh (AkhileshSR)
+- License: MIT — Free to use with credits (see root LICENSE)

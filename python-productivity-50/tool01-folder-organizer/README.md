@@ -15,6 +15,6 @@ python folder_organizer.py --src ./inbox --mode date --dest ./sorted
 python folder_organizer.py --src ./inbox --mode extension --copy
 ```
 
-## Notes
-- Uses `Pathlib` and is cross-platform.
-- `--dry-run` shows what would happen without changing files.
+## Author & License
+- Programmer: Akhilesh Singh (AkhileshSR)
+- License: MIT — Free to use with credits (see root LICENSE)

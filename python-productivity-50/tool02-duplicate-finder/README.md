@@ -13,6 +13,6 @@ python duplicate_finder.py --root ./data --delete --keep newest --dry-run
 python duplicate_finder.py --root ./data --delete --keep newest
 ```
 
-## Safety
-- Use `--dry-run` before deleting.
-- Deletion is permanent.
+## Author & License
+- Programmer: Akhilesh Singh (AkhileshSR)
+- License: MIT — Free to use with credits (see root LICENSE)

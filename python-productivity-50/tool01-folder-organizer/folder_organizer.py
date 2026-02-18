@@ -1,22 +1,24 @@
-
 #!/usr/bin/env python3
 """
 Folder Organizer
-----------------
-Sort files in a directory by either **extension** or **modified date**.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-- Safe by default (no overwrite). Use --dry-run to simulate.
-- Cross-platform (Pathlib) and heavily commented for clarity.
-
-Usage examples:
-    python folder_organizer.py --src C:\Downloads --mode extension --dry-run
-    python folder_organizer.py --src /tmp/inbox --mode date --copy --dest /tmp/sorted
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 from pathlib import Path
 import shutil
 import argparse
 from datetime import datetime
 
+# --- Implementation notes ---------------------------------------------------
+# - We prefer Pathlib for cross-platform path handling.
+# - Two modes: by extension or by modified date (YYYY/MM folders).
+# - Use --dry-run to preview actions without changing files.
+# - Use --copy to duplicate instead of moving.
+# ----------------------------------------------------------------------------
 
 def organize_by_extension(src: Path, dest: Path, copy: bool, dry_run: bool):
     """Group files into subfolders named by file extension (e.g., 'pdf', 'jpg')."""
@@ -75,3 +77,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

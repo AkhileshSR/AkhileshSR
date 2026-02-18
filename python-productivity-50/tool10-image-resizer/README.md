@@ -13,6 +13,6 @@ pip install Pillow
 python image_resizer.py --src ./in --out ./out --max-width 1600 --max-height 1200 --quality 85
 ```
 
-## Notes
-- Preserves aspect ratio using `thumbnail`.
-- Supports: JPG, PNG, WEBP.
+## Author & License
+- Programmer: Akhilesh Singh (AkhileshSR)
+- License: MIT — Free to use with credits (see root LICENSE)

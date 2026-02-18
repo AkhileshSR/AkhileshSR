@@ -1,16 +1,21 @@
-
 #!/usr/bin/env python3
 """
 Daily Planner Generator (Markdown)
-----------------------------------
-Create a simple, opinionated Markdown day planner for a given date.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Example:
-    python daily_planner.py --date 2026-02-18 --out ./plans
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 from pathlib import Path
 import argparse
 from datetime import datetime
+
+# --- Implementation notes ---------------------------------------------------
+# - Generates an opinionated Markdown day plan with time blocks.
+# - The filename embeds the ISO date for easy sorting.
+# ----------------------------------------------------------------------------
 
 TEMPLATE = """# Daily Planner — {date_human}
 
@@ -40,7 +45,6 @@ TEMPLATE = """# Daily Planner — {date_human}
 - What can be improved tomorrow?
 """
 
-
 def main():
     ap = argparse.ArgumentParser(description='Generate a Markdown daily planner file.')
     ap.add_argument('--date', type=str, help='YYYY-MM-DD (defaults to today)')
@@ -63,3 +67,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

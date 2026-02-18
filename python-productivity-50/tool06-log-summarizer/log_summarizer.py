@@ -1,18 +1,23 @@
-
 #!/usr/bin/env python3
 """
 Log Summarizer
---------------
-Scan .log files, extract lines matching regex (e.g., ERROR|WARN), and produce a summary count per pattern.
+Author : Akhilesh Singh (AkhileshSR)
+License: MIT (see LICENSE) — Free to use with attribution.
 
-Example:
-    python log_summarizer.py --root ./logs --patterns ERROR WARN --out summary.md
+This script is intentionally **well-commented** to be approachable for
+experienced programmers who are newer to Python.
 """
+
 from pathlib import Path
 import argparse
 import re
 from collections import Counter
 
+# --- Implementation notes ---------------------------------------------------
+# - Scans *.log files recursively from --root.
+# - Each regex pattern gets its own count per file.
+# - Optional Markdown report summarizes totals.
+# ----------------------------------------------------------------------------
 
 def summarize_logs(root: Path, patterns):
     counters = {p: Counter() for p in patterns}
@@ -31,22 +36,14 @@ def summarize_logs(root: Path, patterns):
 
 
 def write_markdown(counters, out_md: Path):
-    lines = ["# Log Summary
-
-"]
+    lines = ["# Log Summary\n\n"]
     for pat, counter in counters.items():
-        lines.append(f"## Pattern: `{pat}`
-
-")
+        lines.append(f"## Pattern: `{pat}`\n\n")
         total = sum(counter.values())
-        lines.append(f"Total matches: **{total}**
-
-")
+        lines.append(f"Total matches: **{total}**\n\n")
         for fname, cnt in counter.most_common():
-            lines.append(f"- {fname}: {cnt}
-")
-        lines.append("
-")
+            lines.append(f"- {fname}: {cnt}\n")
+        lines.append("\n")
     out_md.write_text(''.join(lines), encoding='utf-8')
 
 
@@ -75,3 +72,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

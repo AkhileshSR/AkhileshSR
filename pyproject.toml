@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pp50"
+version = "0.1.0"
+description = "Python Productivity 50 — unified CLI for the first 10 tools"
+readme = "README.md"
+authors = [{ name = "Akhilesh Singh (AkhileshSR)" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+  "Pillow>=10.0.0",
+  "PyPDF2>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/AkhileshSR/AkhileshSR"
+
+[project.scripts]
+pp50 = "python_productivity_50.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["python_productivity_50*"]
+
+# Include the tool scripts and their READMEs in the wheel
+[tool.setuptools.package-data]
+python_productivity_50 = [
+  "tool*/*.py",
+  "tool*/*.md",
+  "tool*/*/*.py",
+  "tool*/*/*.md",
+]
+
+# Ensure data files are included (esp. in sdists)
+[tool.setuptools]
+include-package-data = true

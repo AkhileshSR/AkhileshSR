@@ -1,0 +1,2 @@
+[console_scripts]
+pp50 = python_productivity_50.cli:main

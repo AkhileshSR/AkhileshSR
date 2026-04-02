@@ -13,16 +13,34 @@
 
 ---
 
+---
+
 ## 🏆 Enterprise AI for Global Commodity Trading
 *Selected use cases from my private ML lab portfolio (synthetic demos).*
 
-| Business Domain | Strategic Outcome | Impact |
+| Business Domain / Solution | Strategic Outcome | Impact |
 |:---|:---|:---|
-| VAT Compliance | Automated filing via pattern recognition | ~92% accuracy, $1.2M cost avoidance |
-| BEPS & Tax Risk | Multi-jurisdictional audit readiness | ~88% precision in risk flagging |
-| Invoice Integrity | Fraud anomaly detection | ~95% precision, $1.8M risk mitigation |
-| Trader Analytics | Pareto-based segmentation | Top 20% clients → ~82% revenue |
-| Tax Provisions | Financial forecasting | R² ≈ 0.89 reliability |
+| **Global Compliance Cockpit** | 6k+ annual compliance analysis across 54 countries | Streamlined compliance monitoring |
+| **Global Audits & Disputes Cockpit** | Exposure tracking by location, tax type, structured & unstructured data, notifications | Bn+ exposure management across 54 countries |
+| **Global CbCR Processing Solution** | Country-wise CbCR calculation & filing preparation | Automated reporting for global jurisdictions |
+| **Global Tax Provisions Solution** | Provisional income tax automation across 54+ countries | Increased accuracy & efficiency |
+| **Global BEPS 2.0 Solution** | Impact analysis, prototype & tactical solution for BEPS identification & tracking | Enhanced audit readiness & compliance |
+| **VAT Compliance** | Automated filing via pattern recognition | ~92% accuracy, $1.2M cost avoidance |
+| **BEPS & Tax Risk** | Multi-jurisdictional audit readiness | ~88% precision in risk flagging |
+| **Invoice Integrity** | Fraud anomaly detection | ~95% precision, $1.8M risk mitigation |
+| **Trader Analytics** | Pareto-based segmentation | Top 20% clients → ~82% revenue |
+| **Tax Provisions** | Financial forecasting | R² ≈ 0.89 reliability |
+
+**Architecture:** Azure ML → SAP S/4HANA → Power BI | ISO 42001 Compliant  
+
+---
+
+## 📂 Past Enterprise Projects
+| Project | Strategic Outcome | Impact |
+|:---|:---|:---|
+| **British Airways** | Passenger & Order Management Integration | Backbone system |
+| **Marks & Spencer (IFG & Supply Chain)** | Store + online orders automation across 50+ countries | Enterprise backbone solution |
+| **ASPX Solution** | Full code generation (550+ pages, 4 types) | 300x productivity |
 
 **Architecture:** Azure ML → SAP S/4HANA → Power BI | ISO 42001 Compliant  
 

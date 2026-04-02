@@ -13,6 +13,46 @@
 
 ---
 
+## 🌟 Featured Projects
+
+### 🤖 **Global Compliance Cockpit**
+- **Stack:** Azure ML + SAP S/4HANA + Power BI  
+- **Impact:** Automated 6k+ annual compliance checks across 54 countries  
+- **Outcome:** Streamlined monitoring, reduced manual effort by ~70%  
+
+---
+
+### 📊 **Invoice Integrity (Fraud Detection)**
+- **Stack:** ML anomaly detection + Power BI dashboards  
+- **Impact:** ~95% precision in fraud flagging  
+- **Outcome:** $1.8M risk mitigation, enhanced audit readiness  
+
+---
+
+### 🌐 **BEPS 2.0 Risk Analyzer**
+- **Stack:** Azure ML + Distributed Systems  
+- **Impact:** ~88% precision in multi-jurisdictional risk detection  
+- **Outcome:** Faster audit prep, improved compliance visibility  
+
+---
+
+### 📈 **VAT Compliance Automation**
+- **Stack:** Pattern recognition + Azure ML pipelines  
+- **Impact:** ~92% accuracy in automated filings  
+- **Outcome:** $1.2M cost avoidance, reduced compliance overhead  
+
+---
+
+## 🚀 Impact Snapshot
+
+| Metric | 📊 Value |
+|:---|:---|
+| Compliance Checks | 6k+ automated annually |
+| Fraud Detection | ~95% precision |
+| Risk Mitigation | $1.8M saved |
+| Filing Accuracy | ~92% |
+| Global Scale | 54+ countries |
+
 ---
 
 ## 🏆 Enterprise AI for Global Commodity Trading
@@ -59,6 +99,9 @@
 
 ---
 
-## 📫 Connect
-[![Email](https://img.shields.io/badge/Email-Akhilesh.Digital%40outlook.com-blue?style=flat-square&logo=gmail)](mailto:Akhilesh.Digital@outlook.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-AkhileshSR-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/AkhileshSR)
+## 🧠 Currently Exploring
+```yaml
+focus:
+  AI: [LLMs, RAG, XGBoost]
+  Data Engineering: [Streaming, DataOps]
+  Cloud: [Serverless, Distributed Systems]

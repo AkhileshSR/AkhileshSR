@@ -102,7 +102,8 @@
 ## 🧠 Currently Exploring
 ```yaml
 focus:
-  AI: [LLMs, RAG, XGBoost]
-  Data Engineering: [Streaming, DataOps]
-  Cloud: [Serverless, Distributed Systems]
-**
+  AI: [LLMs, RAG, Generative AI, Explainable AI, XGBoost]
+  Data Engineering: [Streaming, DataOps, Real-time Pipelines, Data Quality & Governance]
+  Cloud: [Serverless, Distributed Systems, Multi-cloud Orchestration, Edge AI]
+  Governance: [AI Risk Management, ISO 42001 Compliance, Responsible AI]
+

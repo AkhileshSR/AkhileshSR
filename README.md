@@ -1,5 +1,5 @@
 # 👋 Akhilesh Singh | Director – AI Transformation
-**Director - AI Transformatio | Sovereign AI Architect | Global FinTaxTech Leader | 20+ Years Enterprise Experience**
+**Sovereign AI Architect | Global FinTaxTech Leader | 20+ Years Enterprise Experience**
 
 > "From debugging enterprise systems to architecting sovereign AI – building trust, scale, and measurable value."
 

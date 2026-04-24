@@ -1,91 +1,65 @@
-**# 👋 Akhilesh Singh | FinTaxTech AIML Leader
-**Global Director | AI Digital Transformation Expert** | 20+ Years Enterprise Experience
+# 👋 Akhilesh Singh | Director – AI Transformation
+**Sovereign AI Architect | Global FinTaxTech Leader | 20+ Years Enterprise Experience**
 
-> "Debugged enterprise systems before ML was cool. Built ML when it became enterprise reality. :)"
-
----
-
-## 🛠️ The Journey
-- **2005:** ASP.NET 2.0 → First production deployment at age 22  
-- **2012:** AWS Lambda → Scaling serverless architecture before mainstream adoption  
-- **2018:** Azure ML → Architecting enterprise ML pipelines for global scale  
-- **2026:** AI Transformation → Solving VAT Compliance, Fraud, and BEPS Risk in Commodity Trading  
+> "From debugging enterprise systems to architecting sovereign AI – building trust, scale, and measurable value."
 
 ---
 
-## 🌟 Featured Projects
-
-### 🤖 **Global Compliance Cockpit**
-- **Stack:** Azure ML + SAP S/4HANA + Power BI  
-- **Impact:** Automated 6k+ annual compliance checks across 54 countries  
-- **Outcome:** Streamlined monitoring, reduced manual effort by ~70%  
-
----
-
-### 📊 **Invoice Integrity (Fraud Detection)**
-- **Stack:** ML anomaly detection + Power BI dashboards  
-- **Impact:** ~95% precision in fraud flagging  
-- **Outcome:** $1.8M risk mitigation, enhanced audit readiness  
+## 🚀 Transformation Journey
+- **2005:** ASP.NET → First enterprise deployment at age 22  
+- **2012:** AWS Lambda → Scaling serverless before mainstream adoption  
+- **2018:** Azure ML → Architecting ML pipelines for global scale  
+- **2026:** Sovereign AI → Delivering Responsible AI, Orchestration, and ROI in Finance & Tax  
 
 ---
 
-### 🌐 **BEPS 2.0 Risk Analyzer**
-- **Stack:** Azure ML + Distributed Systems  
-- **Impact:** ~88% precision in multi-jurisdictional risk detection  
-- **Outcome:** Faster audit prep, improved compliance visibility  
+## 🌟 Featured AI Projects
+
+### 🛡️ **AgentFS – Auditable AI Filesystem**
+- **Stack:** Python + SQLite  
+- **Impact:** Verifiable audit trails for every AI decision  
+- **Outcome:** ISO 42001 Responsible AI compliance, governance demo for recruiters  
 
 ---
 
-### 📈 **VAT Compliance Automation**
-- **Stack:** Pattern recognition + Azure ML pipelines  
-- **Impact:** ~92% accuracy in automated filings  
-- **Outcome:** $1.2M cost avoidance, reduced compliance overhead  
+### 🤝 **Multi-Agent Orchestration (LangGraph)**
+- **Stack:** Python + LangChain/LangGraph + OpenAI/Anthropic APIs  
+- **Impact:** Agents collaborating with memory and tool routing  
+- **Outcome:** Demonstrates orchestration of complex workflows – *“From solo models to councils”*  
 
 ---
 
-## 🚀 Impact Snapshot
-
-| Metric | 📊 Value |
-|:---|:---|
-| Compliance Checks | 6k+ automated annually |
-| Fraud Detection | ~95% precision |
-| Risk Mitigation | $1.8M saved |
-| Filing Accuracy | ~92% |
-| Global Scale | 54+ countries |
+### 📚 **End-to-End RAG Pipeline**
+- **Stack:** FAISS + Sentence-Transformers + HuggingFace  
+- **Impact:** Queryable insights from 100+ page tax/legal documents  
+- **Outcome:** Production-grade retrieval with measurable accuracy and ROI  
 
 ---
 
-## 🏆 Enterprise AI for Global Commodity Trading
-*Selected use cases from my private ML lab portfolio (synthetic demos).*
+### 💻 **AI-Driven Codebase (Claude Code / Cursor)**
+- **Stack:** Claude Code CLI + Cursor IDE  
+- **Impact:** AI co-writes ~40% of codebase, guided and reviewed  
+- **Outcome:** Demonstrates workforce upskilling and agentic coding workflows  
 
-| Business Domain / Solution | Strategic Outcome | Impact |
+---
+
+## 📊 Impact Snapshot
+
+| Industry Ask | Project Alignment | Demonstrated Capability |
 |:---|:---|:---|
-| **Global Compliance Cockpit** | 6k+ annual compliance analysis across 54 countries | Streamlined compliance monitoring |
-| **Global Audits & Disputes Cockpit** | Exposure tracking by location, tax type, structured & unstructured data, notifications | Bn+ exposure management across 54 countries |
-| **Global CbCR Processing Solution** | Country-wise CbCR calculation & filing preparation | Automated reporting for global jurisdictions |
-| **Global Tax Provisions Solution** | Provisional income tax automation across 54+ countries | Increased accuracy & efficiency |
-| **Global BEPS 2.0 Solution** | Impact analysis, prototype & tactical solution for BEPS identification & tracking | Enhanced audit readiness & compliance |
-| **VAT Compliance** | Automated filing via pattern recognition | ~92% accuracy, $1.2M cost avoidance |
-| **BEPS & Tax Risk** | Multi-jurisdictional audit readiness | ~88% precision in risk flagging |
-| **Invoice Integrity** | Fraud anomaly detection | ~95% precision, $1.8M risk mitigation |
-| **Trader Analytics** | Pareto-based segmentation | Top 20% clients → ~82% revenue |
-| **Tax Provisions** | Financial forecasting | R² ≈ 0.89 reliability |
-
-**Architecture:** Azure ML → SAP S/4HANA → Power BI | ISO 42001 Compliant  
+| **Deploy** | RAG Pipeline | From pilots to production with measurable accuracy |
+| **Orchestrate** | LangGraph Orchestration | Multi-agent workflows with memory & tool routing |
+| **Value** | ERP-to-Claude Integration | ROI via compliance forecasting & fraud detection |
+| **Upskill** | AI-Driven Codebase | AI-augmented development, workforce transformation |
+| **Govern** | AgentFS | Responsible AI with audit trails & compliance |
 
 ---
 
-## 📂 Past Enterprise Projects
-| Project | Strategic Outcome | Impact |
-|:---|:---|:---|
-| **British Airways** | Passenger & Order Management Integration | Backbone system |
-| **Marks & Spencer (IFG & Supply Chain)** | Store + online orders automation across 50+ countries | Enterprise backbone solution |
-| **ASPX Solution** | Full code generation (550+ pages, 4 types) | 300x productivity |
-
-**Architecture:** Azure ML → SAP S/4HANA → Power BI | ISO 42001 Compliant  
-
-🔒 **Access Note:** Proprietary repo is private.  
-👉 Explore related public work here: [github.com/akhileshsr](https://github.com/akhileshsr)  
+## 🏆 Enterprise AI Track Record
+- **Global Compliance Cockpit** → Automated 6k+ annual checks across 54 countries  
+- **Invoice Integrity (Fraud Detection)** → ~95% precision, $1.8M risk mitigation  
+- **BEPS 2.0 Risk Analyzer** → ~88% precision in multi-jurisdictional risk detection  
+- **VAT Compliance Automation** → ~92% accuracy, $1.2M cost avoidance  
 
 ---
 
@@ -95,15 +69,16 @@
 - **Global Scale:** Deployed systems across 54 countries, managing $2B+ P&L data  
 - **Recognition:** CFO 100 Award for FinTax innovation  
 
-⚡ **Fun fact:** I still write C# faster than Python. I can deploy to Azure/AWS with my eyes closed, yet I still spend 30 minutes debugging dinner decisions.  
-
 ---
 
-## 🧠 Currently Exploring
+## 🧠 Current Focus
 ```yaml
-focus:
-  AI: [LLMs, RAG, Generative AI, Explainable AI, XGBoost]
-  Data Engineering: [Streaming, DataOps, Real-time Pipelines, Data Quality & Governance]
-  Cloud: [Serverless, Distributed Systems, Multi-cloud Orchestration, Edge AI]
-  Governance: [AI Risk Management, ISO 42001 Compliance, Responsible AI]
-
+Delivering:
+  - AgentFS (Responsible AI)
+  - LangGraph Orchestration (Multi-agent workflows)
+  - RAG Pipeline (Production-grade retrieval)
+  - ERP-to-Claude Integration (Enterprise AI ROI)
+Exploring:
+  - Sovereign AI architectures
+  - ISO 42001 compliance frameworks
+  - AI workforce transformation

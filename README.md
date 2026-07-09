@@ -4,7 +4,7 @@
 
 > *"I build AI that runs enterprise operations across 54 countries—not slide decks."*
 
-📍 Delhi, India | 📧 Akhilesh.digital@Outlook.com | 🔗 [LinkedIn](linkedin.com/in/AkhileshSR) | 📦 [GitHub](github.com/AkhileshSR)
+📍 India | 📧 Akhilesh.digital@Outlook.com | 🔗 [LinkedIn](linkedin.com/in/AkhileshSR) | 📦 [GitHub](github.com/AkhileshSR)
 
 ---
 
@@ -103,3 +103,32 @@ Leadership:
   - GCC Lifecycle (Greenfield to Scale)
   - Stakeholder & Change Management
   - PMP | PRINCE2 | Six Sigma Green Belt
+
+Building:
+  - Autonomous tax resolution agents
+  - FinOps optimization agents
+  - FP&A narrative generation
+  - ISO 42001-compliant governance systems
+
+Exploring:
+  - Sovereign AI architectures
+  - Multi-agent orchestration at scale
+  - AI-driven compliance automation
+
+## 🎯 How to Collaborate
+
+I'm available for **Senior Leadership Roles** in:
+
+- AI Transformation Director / VP
+- Chief AI Officer / Head of AI
+- Global Digital Transformation Lead
+- GCC / Capability Centre Head
+
+**Available to join within days.**
+
+📧 Akhilesh.digital@Outlook.com  
+🔗 [LinkedIn](linkedin.com/in/AkhileshSR) | 📦 [GitHub](github.com/AkhileshSR)
+
+---
+
+> *"I don't build slide decks. I build systems that run enterprises."*

@@ -1,84 +1,105 @@
 # 👋 Akhilesh Singh | Director – AI Transformation
+
 **Sovereign AI Architect | Global FinTaxTech Leader | 20+ Years Enterprise Experience**
 
-> "From debugging enterprise systems to architecting sovereign AI – building trust, scale, and measurable value."
+> *"I build AI that runs enterprise operations across 54 countries—not slide decks."*
+
+📍 Delhi, India | 📧 Akhilesh.digital@Outlook.com | 🔗 [LinkedIn](linkedin.com/in/AkhileshSR) | 📦 [GitHub](github.com/AkhileshSR)
 
 ---
 
-## 🚀 Transformation Journey
-- **2005:** ASP.NET → First enterprise deployment at age 22  
-- **2012:** AWS Lambda → Scaling serverless before mainstream adoption  
-- **2018:** Azure ML → Architecting ML pipelines for global scale  
-- **2026:** Sovereign AI → Delivering Responsible AI, Orchestration, and ROI in Finance & Tax  
+## 🎯 What Makes This Profile Different
+
+- **Hands-on AI Builder:** I personally code and deploy production AI systems, not just lead strategy
+- **Enterprise Scale:** Systems I've architected handle $50B+ in transactions across 54 jurisdictions
+- **CFO-Level Impact:** My AI systems save millions annually—recognized with **CFO 100 Award (2023-2025)**
+- **Sovereign AI:** Built ISO 42001-compliant governance frameworks from scratch
+- **Global Delivery:** Directed onsite programs across USA, UK, Australia, Singapore, Canada—100% on-time
 
 ---
 
-## 🌟 Featured AI Projects
+## 🧪 AI POC Lab: Agentic Prototypes
+
+I maintain an active **AI POC Lab** where I prototype enterprise-grade agentic systems. These demonstrate the same patterns I use for multi-jurisdictional compliance, fraud detection, and document automation.
+
+| Agent | Purpose | Enterprise Relevance |
+|-------|---------|---------------------|
+| 🔍 [last30days-skill](https://github.com/AkhileshSR/last30days-skill) | Multi-source research aggregation (Reddit, X, YouTube, HN) | Same orchestration pattern used in 54-country compliance research |
+| 🧠 [llm-council-skill2](https://github.com/AkhileshSR/llm-council-skill2) | Model governance & hallucination reduction via multi-LLM deliberation | Core to my ISO 42001 Responsible AI approach |
+| ⚡ [gstack](https://github.com/AkhileshSR/gstack) | Enterprise prompt methodology (Garry Tan's Claude Code approach) | Maker-checker governance for document automation |
+
+> *"Every prototype here validates technical feasibility and ROI before enterprise decisions are made."*
+
+---
+
+## 🌟 Featured Projects
 
 ### 🛡️ **AgentFS – Auditable AI Filesystem**
-- **Stack:** Python + SQLite  
-- **Impact:** Verifiable audit trails for every AI decision  
-- **Outcome:** ISO 42001 Responsible AI compliance, governance demo for recruiters  
-
----
+**Stack:** Python + SQLite | **Impact:** Verifiable audit trails for every AI decision
 
 ### 🤝 **Multi-Agent Orchestration (LangGraph)**
-- **Stack:** Python + LangChain/LangGraph + OpenAI/Anthropic APIs  
-- **Impact:** Agents collaborating with memory and tool routing  
-- **Outcome:** Demonstrates orchestration of complex workflows – *“From solo models to councils”*  
-
----
+**Stack:** Python + LangChain/LangGraph + OpenAI/Anthropic APIs | **Impact:** Agents collaborating with memory and tool routing
 
 ### 📚 **End-to-End RAG Pipeline**
-- **Stack:** FAISS + Sentence-Transformers + HuggingFace  
-- **Impact:** Queryable insights from 100+ page tax/legal documents  
-- **Outcome:** Production-grade retrieval with measurable accuracy and ROI  
-
----
+**Stack:** FAISS + Sentence-Transformers + HuggingFace | **Impact:** Queryable insights from 100+ page tax/legal documents
 
 ### 💻 **AI-Driven Codebase (Claude Code / Cursor)**
-- **Stack:** Claude Code CLI + Cursor IDE  
-- **Impact:** AI co-writes ~40% of codebase, guided and reviewed  
-- **Outcome:** Demonstrates workforce upskilling and agentic coding workflows  
+**Stack:** Claude Code CLI + Cursor IDE | **Impact:** AI co-writes ~40% of codebase
 
 ---
 
-## 📊 Impact Snapshot
+## 📊 Enterprise Impact Snapshot
 
-| Industry Ask | Project Alignment | Demonstrated Capability |
-|:---|:---|:---|
-| **Deploy** | RAG Pipeline | From pilots to production with measurable accuracy |
-| **Orchestrate** | LangGraph Orchestration | Multi-agent workflows with memory & tool routing |
-| **Value** | ERP-to-Claude Integration | ROI via compliance forecasting & fraud detection |
-| **Upskill** | AI-Driven Codebase | AI-augmented development, workforce transformation |
-| **Govern** | AgentFS | Responsible AI with audit trails & compliance |
-
----
-
-## 🏆 Enterprise AI Track Record
-- **Global Compliance Cockpit** → Automated 6k+ annual checks across 54 countries  
-- **Invoice Integrity (Fraud Detection)** → ~95% precision, $1.8M risk mitigation  
-- **BEPS 2.0 Risk Analyzer** → ~88% precision in multi-jurisdictional risk detection  
-- **VAT Compliance Automation** → ~92% accuracy, $1.2M cost avoidance  
+| System | Impact | Scale |
+|--------|--------|-------|
+| **Tax Resolution Agent** | 65% research time reduction | 54 countries |
+| **Invoice Fraud Detection** | 95% accuracy, $1.8M risk mitigation | Global commodity transactions |
+| **VAT Compliance Automation** | 80%+ straight-through processing | Europe & Brazil |
+| **Cloud FinOps Optimization** | $2M annual savings | Azure/AWS/GCP |
+| **AI Governance Framework** | ISO 42001 compliant | 54 jurisdictions |
 
 ---
 
-## 💼 Expertise & Leadership
-- **Enterprise Stack:** MS Stack (ASP.NET → Blazor → Azure), AWS (Lambda → Bedrock)  
-- **SAP Ecosystem:** ML pipelines integrated with SAP S/4HANA & Power Automate  
-- **Global Scale:** Deployed systems across 54 countries, managing $2B+ P&L data  
-- **Recognition:** CFO 100 Award for FinTax innovation  
+## 🏆 Recognitions
+
+- **CFO 100 Award** (2023-2025): Digital Transformation Excellence at Louis Dreyfus Company
+- **Most Valued Person - MVP** (2024): Exceptional leadership at LDC India
+- **KPMG Encore Team & Kudos** (2016-2017): Digital Innovation & Enterprise Solutioning
+- **Deputy CEO Appreciation** (2016): Strategic transformation impact at KPMG
+- **NIIT Award of Excellence** (2001): 300%+ productivity gain via automation
 
 ---
 
-## 🧠 Current Focus
+## 💼 Enterprise Leadership
+
+- **Global Scale:** Deployed systems across 54 countries, managing $10M+ budgets
+- **Team Leadership:** Built 120+ FTE teams; established GCC from greenfield (50+ engineers in 90 days)
+- **CXO Relationships:** Trusted advisor to 200+ CXOs; reported directly to Global CFO at LDC
+- **Technology Stack:** SAP S/4HANA | Azure | AWS | LangGraph | RAG | Sovereign LLMs
+
+---
+
+## 🔧 Core Capabilities
+
 ```yaml
-Delivering:
-  - AgentFS (Responsible AI)
-  - LangGraph Orchestration (Multi-agent workflows)
-  - RAG Pipeline (Production-grade retrieval)
-  - ERP-to-Claude Integration (Enterprise AI ROI)
-Exploring:
-  - Sovereign AI architectures
-  - ISO 42001 compliance frameworks
-  - AI workforce transformation
+AI Systems Delivery:
+  - Agentic AI (LangGraph/AutoGen)
+  - RAG Architecture (Production-grade)
+  - ML Classification Models (Naive Bayes, etc.)
+  - Sovereign LLM Deployment
+
+Governance:
+  - ISO 42001 Lead Implementer
+  - CAISO | CAIO | AB 731 Certified
+  - Responsible AI Frameworks
+
+Enterprise Platforms:
+  - SAP S/4HANA | D365 F&O | OneStream
+  - Azure | AWS | GCP | Databricks | Snowflake
+  - Power Automate | Power Platform
+
+Leadership:
+  - P&L Management ($10M+)
+  - GCC Lifecycle (Greenfield to Scale)
+  - Stakeholder & Change Management
+  - PMP | PRINCE2 | Six Sigma Green Belt

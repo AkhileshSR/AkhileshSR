@@ -1,10 +1,10 @@
-# 👋 Akhilesh Singh | Director – AI Transformation
+# 👋 Akhilesh Singh | Director, AI Transformation
 
 **Sovereign AI Advocate | Global FinTaxTech Leader | 20+ Years Enterprise Experience**
 
-> *"I build AI that runs enterprise operations across 54 countries—not slide decks."*
+> *"I build AI that runs enterprise operations across 54 countries, not slide decks."*
 
-📍 India | 📧 Akhilesh.digital@Outlook.com | 🔗 [LinkedIn](linkedin.com/in/AkhileshSR) | 📦 [GitHub](github.com/AkhileshSR)
+📍 India | 📧 Akhilesh.digital@Outlook.com | 🔗 [LinkedIn](https://linkedin.com/in/AkhileshSR) | 📦 [GitHub](https://github.com/AkhileshSR)
 
 ---
 
@@ -12,51 +12,51 @@
 
 - **Hands-on AI Builder:** I personally architect production AI systems, not just lead strategy
 - **Enterprise Scale:** Systems I've architected support a Multi-million $+ transaction footprint across 54 jurisdictions
-- **CFO-Level Impact:** My AI systems save millions annually — recognized with **CFO 100 Award (2023-2025)**
+- **CFO-Level Impact:** My AI systems save millions annually, recognized with **CFO 100 Award (2023-2025)**
 - **Sovereign AI Advocate:** In-region, sovereign LLM deployment as a governance principle
-- **Global Delivery:** Directed onsite programs across USA, UK, Australia, Singapore, Canada — Delivery focused
+- **Global Delivery:** Directed onsite programs across USA, UK, Australia, Singapore, Canada, delivery focused
 
 ---
 
 ## 🏢 Office / Production Stack
 
-The toolset actually running behind enterprise systems at LDC — Azure-native, chosen for data residency and enterprise governance.
+The toolset actually running behind enterprise systems at LDC, Azure-native, chosen for data residency and enterprise governance.
 
 | Layer | Tools |
 |---|---|
 | Orchestration & Agents | Semantic Kernel · Azure AI Foundry · AutoGen (single- & multi-agent) |
-| LLMs | Azure OpenAI Service — GPT-4o, o1 (in-region / sovereign deployment) |
+| LLMs | Azure OpenAI Service, GPT-4o, o1 (in-region / sovereign deployment) |
 | Retrieval | Azure AI Search (vector index) · Azure OpenAI text-embedding-3-large |
 | Evaluation & Tracing | Prompt Flow |
 | Data & Analytics | MS Fabric · Databricks · Snowflake · SQL (MS SQL Server, Oracle PL/SQL) |
 | ERP Integration | SAP S/4HANA · ONESOURCE · OneStream · D365 F&O |
 
-> *These are the tools behind the RAG compliance pipeline, invoice anomaly detection model, and legal document automation engine described on my CV — same systems, same names, no translation needed between the two.*
+> *These are the tools behind the RAG compliance pipeline, invoice anomaly detection model, and legal document automation engine described on my CV, same systems, same names, no translation needed between the two.*
 
 ---
 
 ## 🧪 Personal Test Bed / POC Lab
 
-A lighter-weight stack I use for demos and personal experimentation — **not** the enterprise toolset above, and not presented as such.
+A lighter-weight stack I use for demos and personal experimentation, **not** the enterprise toolset above, and not presented as such.
 
-**30+ agentic AI use cases built across this Test Bed** — a mix of single-agent workflows and multi-agent orchestrations — several of which were piloted or rolled out to production at LDC. The 4 repos below are representative examples, not the full set.
+**30+ agentic AI use cases built across this Test Bed**, a mix of single-agent workflows and multi-agent orchestrations, several of which were piloted or rolled out to production at LDC. The 4 repos below are representative examples, not the full set.
 
 | Agent | Purpose | Stack |
 |-------|---------|-------|
 | 🔍 [last30days-skill](https://github.com/AkhileshSR/last30days-skill) | Multi-source research aggregation (Reddit, X, YouTube, HN) | LangGraph orchestration |
 | 🧠 [llm-council-skill2](https://github.com/AkhileshSR/llm-council-skill2) | Multi-LLM deliberation for hallucination reduction | Claude 3.5 Sonnet, Gemini 1.5 Pro, Phi-3 |
 | ⚡ [gstack](https://github.com/AkhileshSR/gstack) | Prompt methodology experiments | Claude Code CLI |
-| 🛡️ [AgentFS](https://github.com/AkhileshSR/AgentFS) | Auditable AI filesystem — verifiable audit trails for agent decisions | Python + SQLite |
+| 🛡️ [AgentFS](https://github.com/AkhileshSR/AgentFS) | Auditable AI filesystem, verifiable audit trails for agent decisions | Python + SQLite |
 
-**RAG pipeline (Test Bed):** FAISS + Sentence-Transformers (open-source embeddings) — the lightweight counterpart to the Azure AI Search + Azure OpenAI embeddings used in production.
+**RAG pipeline (Test Bed):** FAISS + Sentence-Transformers (open-source embeddings), the lightweight counterpart to the Azure AI Search + Azure OpenAI embeddings used in production.
 
-> *Demo-scope only — built to validate patterns and technical feasibility before proposing them for enterprise use, not run on enterprise infrastructure.*
+> *Demo-scope only, built to validate patterns and technical feasibility before proposing them for enterprise use, not run on enterprise infrastructure.*
 
 ---
 
-## 🗂️ Agentic AI Portfolio — Problem Areas
+## 🗂️ Agentic AI Portfolio: Problem Areas
 
-A few samples from the 30+ agentic AI use cases in my Test Bed — several of these were piloted or rolled out to production at LDC. Sorted by value-creation potential (my own qualitative assessment of business impact, not a per-agent production or ROI claim).
+A few samples from the 30+ agentic AI use cases in my Test Bed, several of these were piloted or rolled out to production at LDC. Sorted by value-creation potential (my own qualitative assessment of business impact, not a per-agent production or ROI claim).
 
 | Agent | Category | Problem it addresses | Value-Creation Potential |
 |---|---|---|---|
@@ -111,7 +111,7 @@ A few samples from the 30+ agentic AI use cases in my Test Bed — several of th
 - **Team Leadership:** Built 120+ FTE teams; established GCC from greenfield (50+ engineers in 90 days)
 - **CXO Relationships:** Trusted advisor to 200+ CXOs; reported directly to Global CFO at LDC
 - **Certifications:** ISO 42001 Lead Implementer | CAISO | CAIO | AB 731 AI Transformation Leader (2026) | PMP | PRINCE2 | Six Sigma Green Belt
-- *(Prior, expired: Microsoft Azure Certification, Enterprise SQL Certification — early cloud/data credentials)*
+- *(Prior, expired: Microsoft Azure Certification, Enterprise SQL Certification, early cloud/data credentials)*
 
 ---
 
@@ -126,8 +126,8 @@ I'm available for **Senior Leadership Roles** in:
 
 **Available to join within 10/15 days.**
 
-📧 Akhilesh.digital@Outlook.com
-🔗 [LinkedIn](linkedin.com/in/AkhileshSR) | 📦 [GitHub](github.com/AkhileshSR)
+📧 Akhilesh.digital@Outlook.com  
+🔗 [LinkedIn](https://linkedin.com/in/AkhileshSR) | 📦 [GitHub](https://github.com/AkhileshSR)
 
 ---
 

@@ -1,4 +1,4 @@
-[![GitHub Streak](https://herokuapp.com)](https://git.io)
+[![GitHub Streak](https://demolab.com)](https://git.io/streak-stats)
 
 # 👋 Akhilesh Singh | Director, AI Transformation
 

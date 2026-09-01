@@ -1,3 +1,5 @@
+[![GitHub Streak](https://herokuapp.com)](https://git.io)
+
 # 👋 Akhilesh Singh | Director, AI Transformation
 
 **Sovereign AI Advocate | Global FinTaxTech Leader | 20+ Years Enterprise Experience**

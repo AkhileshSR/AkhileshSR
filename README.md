@@ -58,7 +58,7 @@ A lighter-weight stack I use for demos and personal experimentation, **not** the
 
 ## 🗂️ Agentic AI Portfolio: Problem Areas
 
-A few samples from the 30+ agentic AI use cases in my Test Bed, several of these were piloted or rolled out to production at LDC. Sorted by value-creation potential (my own qualitative assessment of business impact, not a per-agent production or ROI claim).
+A few samples from the 50+ agentic AI use cases in my Test Bed, several of these were piloted or rolled out to production at LDC. Sorted by value-creation potential (my own qualitative assessment of business impact, not a per-agent production or ROI claim).
 
 | Agent | Category | Problem it addresses | Value-Creation Potential |
 |---|---|---|---|

@@ -4,7 +4,7 @@
 
 **Sovereign AI Advocate | Global FinTaxTech Leader | 20+ Years Enterprise Experience**
 
-> *"I build AI that runs enterprise operations across 54 countries, not slide decks."*
+> *"I build AI that runs enterprise operations across 54 countries, not only slide decks."*
 
 📍 India | 📧 Akhilesh.digital@Outlook.com | 🔗 [LinkedIn](https://linkedin.com/in/AkhileshSR) | 📦 [GitHub](https://github.com/AkhileshSR)
 
